@@ -15,6 +15,12 @@ func (uc *AppControl) OnAppUpdate(ctx app.Context) {
 	}
 }
 
+// implement Navigator in the component, so as to use SetTitle()
+// https://github.com/maxence-charriere/go-app/issues/578
+func (uc *AppControl) OnNav(ctx app.Context) {
+	return
+}
+
 func (uc *AppControl) Render() app.UI {
 	return app.Div().
 		Body(
@@ -36,4 +42,5 @@ func (uc *AppControl) Render() app.UI {
 
 func (uc *AppControl) OnChange(ctx app.Context, e app.Event) {
 	uc.tabTitle = ctx.JSSrc().Get("value").String()
+	ctx.Page().SetTitle(uc.tabTitle)
 }
