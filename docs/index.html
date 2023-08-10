@@ -1,1 +1,34 @@
-.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="author" content>
+<meta content="Give browser tab a meaningful title" name="description">
+<meta name="keywords" content>
+<meta name="theme-color" content="#2d2c2c">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover">
+<meta property="og:url" content="http://127.0.0.1:36499/">
+<meta property="og:title" content>
+<meta property="og:description" content="Give browser tab a meaningful title">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/TabTitle/web/icon.png">
+<title></title>
+<link href="/TabTitle/app.css" as="style" type="text/css" rel="preload">
+<link rel="icon" href="/TabTitle/web/icon.png">
+<link rel="apple-touch-icon" href="/TabTitle/web/icon.png">
+<link rel="manifest" href="/TabTitle/manifest.webmanifest">
+<link rel="stylesheet" type="text/css" href="/TabTitle/app.css">
+<script defer src="/TabTitle/wasm_exec.js"></script>
+<script defer src="/TabTitle/app.js"></script>
+</head>
+<body>
+<div><p>
+<input placeholder="What is the title for the tab?" autofocus spellcheck size="30" id="tabTitle" list="titles" value>
+<datalist id="titles"><option value></option></datalist>
+</p></div>
+<aside id="app-wasm-loader" class="goapp-app-info">
+<img id="app-wasm-loader-icon" class="goapp-logo goapp-spin" src="/TabTitle/web/icon.png">
+<p id="app-wasm-loader-label" class="goapp-label">0%</p>
+</aside>
+</body>
+</html>

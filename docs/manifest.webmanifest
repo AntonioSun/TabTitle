@@ -1,0 +1,27 @@
+{
+  "short_name": "Tab Title",
+  "name": "Tab Title",
+  "description": "Give browser tab a meaningful title",
+  "icons": [
+    {
+      "src": "",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/TabTitle/web/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/TabTitle/web/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "scope": "/TabTitle/",
+  "start_url": "/TabTitle/",
+  "background_color": "#2d2c2c",
+  "theme_color": "#2d2c2c",
+  "display": "standalone"
+}
