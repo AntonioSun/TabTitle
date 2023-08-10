@@ -31,6 +31,7 @@ func (uc *AppControl) Render() app.UI {
 						Value(uc.tabTitle).
 						Placeholder("What is the title for the tab?").
 						AutoFocus(true).
+						Spellcheck(true).
 						OnChange(uc.OnChange),
 				),
 			).Else(
