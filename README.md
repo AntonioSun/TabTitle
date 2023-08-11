@@ -27,8 +27,10 @@ By opening a new tab with this app, all other tabs could be suspended.
 The memory saved is huge, as any functional web page would be at least
 several K or several M bigger than this app.
 
+> ![image](https://github.com/AntonioSun/TabTitle/assets/2840074/e5cca8ca-260c-400e-88f6-e53b0b75187a)
+
 This app can even be used in off-line mode. It doesn't even need an
-active Internet connection to function, if you have ever visit it once.
+active Internet connection to function, if you have ever visited it once.
 
 ### How
 
